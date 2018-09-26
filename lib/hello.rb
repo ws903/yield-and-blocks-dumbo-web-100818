@@ -2,9 +2,9 @@ def hello_t(arr)
   out = ""
   arr.each do |name| 
     if name.end_with?("m")
-      out += "#{name}"
+      out += "#{name}\n"
     else
-      out += "#{name}"
+      out += "#{name}\n"
     end
   end
 end
