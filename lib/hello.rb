@@ -9,7 +9,8 @@ def hello_t(arr)
       puts out
     end
   else
-    
+    puts "Hey! No block was given!"
+  end
 end
 
 hello_t
