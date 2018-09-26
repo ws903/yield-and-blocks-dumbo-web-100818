@@ -4,7 +4,7 @@ def hello_t(arr)
     if arr[i].end_with?("m")
       yield(name)
     else
-      yield(ame.upcase)
+      yield(name.upcase)
     end
     i+=1
   end
