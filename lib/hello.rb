@@ -6,6 +6,7 @@ def hello_t(arr)
       else
         puts name.upcase
       end
+    end
   else
     puts "Hey! No block was given!"
   end
