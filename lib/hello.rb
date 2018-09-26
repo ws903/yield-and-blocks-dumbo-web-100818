@@ -1,6 +1,9 @@
 def hello_t(arr)
   arr.each do |name|
-    puts name
+    if name.starts_with?("T")
+      puts name
+    else
+      puts name.upcase
   end
 end
 
