@@ -2,11 +2,10 @@ def hello_t(arr)
   out = ""
   arr.each do |name| 
     if name.end_with?("m")
-      yield(name)
+      out += "#{name}"
     else
-      yield(name.upcase)
+      out += "#{name}"
     end
-    i+=1
   end
 end
 
