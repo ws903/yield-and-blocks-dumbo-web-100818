@@ -8,6 +8,8 @@ def hello_t(arr)
       end
       puts out
     end
+  else
+    
 end
 
 hello_t
