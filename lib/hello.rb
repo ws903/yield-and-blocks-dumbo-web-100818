@@ -4,7 +4,7 @@ def hello_t(arr)
     if name.end_with?("m")
       out += "#{name}\n"
     else
-      out += "#{name}\n"
+      out += "#{name.upcase}\n"
     end
     puts out
   end
