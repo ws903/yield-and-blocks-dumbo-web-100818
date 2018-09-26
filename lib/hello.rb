@@ -6,6 +6,7 @@ def hello_t(arr)
     else
       out += "#{name}\n"
     end
+    puts out
   end
 end
 
