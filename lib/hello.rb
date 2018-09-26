@@ -4,6 +4,7 @@ def hello_t(arr)
       puts name
     else
       puts name.upcase
+    end
   end
 end
 
