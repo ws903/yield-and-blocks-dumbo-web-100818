@@ -12,5 +12,4 @@ def hello_t(arr)
   end
 end
 
-hello_t
 
