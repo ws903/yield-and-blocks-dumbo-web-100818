@@ -1,9 +1,10 @@
 def hello_t(arr)
-  arr.each do |name|
-    if name.end_with?("m")
-      puts name
+  i = 0
+  while i < array.length  
+    if array[i].end_with?("m")
+      yield(name)
     else
-      puts name.upcase
+      yield(ame.upcase)
     end
   end
 end
